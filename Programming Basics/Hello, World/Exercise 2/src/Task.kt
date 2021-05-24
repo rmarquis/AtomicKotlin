@@ -2,5 +2,7 @@
 package helloWorldExercise2
 
 fun main() {
-  // TODO
+    // TODO
+    println("Hello,")
+    println("Kotlin!")
 }
