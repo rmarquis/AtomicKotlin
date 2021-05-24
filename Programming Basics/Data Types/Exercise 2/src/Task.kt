@@ -2,23 +2,39 @@
 package dataTypesExercise2
 
 fun main() {
-  val int: Int = 10
-  val double: Double = 1.1
-  val boolean: Boolean = false
-  val string: String = "abc"
-  val character: Char = 'a'
+    val int: Int = 10
+    val double: Double = 1.1
+    val boolean: Boolean = false
+    val string: String = "abc"
+    val character: Char = 'a'
 
-  // Can be combined:
-  TODO() // write some examples
+    // Can be combined:
+    //TODO // write some examples
+    val si: String = string + int
+    val sd: String = string + double
+    val sb: String = string + boolean
+    val sc: String = string + character
 
-  println("The type that can be combined " +
-    "with every other type using '+':")
-  println("???")
+    val id: Double = int + double
+    val di: Double = double + int
+    val cs: String = character + string
+    val ci: Char = character + int
 
-  // Can't be combined:
-  TODO() // write some examples
+    println(
+        "The type that can be combined " +
+                "with every other type using '+':"
+    )
+    println("String")
 
-  println("The type that can't be combined " +
-    "with itself using '+':")
-  println("???")
+    // Can't be combined:
+    //TODO // write some examples
+    // val bb = boolean + boolean
+    // val ic = int + character
+    // val ds = double + string
+
+    println(
+        "The type that can't be combined " +
+                "with itself using '+':"
+    )
+    println("Boolean")
 }

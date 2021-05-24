@@ -10,8 +10,8 @@ files:
       length: 3
       offset: 70
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '''b'''
   - offset: 96
     length: 3
@@ -21,7 +21,7 @@ files:
       offset: 96
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '''z'''
   - offset: 121
     length: 3
@@ -30,8 +30,8 @@ files:
       length: 3
       offset: 121
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '''C'''
   text: |-
     // DataTypes/Task3.kt
@@ -75,5 +75,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 24 May 2021 10:02:41 UTC
 record: -1
