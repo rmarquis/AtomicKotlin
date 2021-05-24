@@ -10,14 +10,14 @@ files:
   visible: true
   placeholders:
   - offset: 65
-    length: 7
+    length: 79
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 65
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       var a = 10
         val b = a
@@ -32,5 +32,8 @@ files:
       // TODO
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 24 May 2021 09:26:43 UTC
 record: -1
