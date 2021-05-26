@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: 1_000_000_000
+    encrypted_possible_answer: 1000000000
   - offset: 158
     length: 6
     placeholder_text: TODO()
@@ -32,7 +32,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: 1_000_000_000_000
+    encrypted_possible_answer: 1000000000000
   - offset: 210
     length: 6
     placeholder_text: TODO()
@@ -52,7 +52,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: 1_000_000_000_000_000_000
+    encrypted_possible_answer: 1000000000000000000
   - offset: 268
     length: 6
     placeholder_text: TODO()

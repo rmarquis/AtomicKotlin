@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 88
-    length: 6
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 88
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: if (number > 0) number else -number
   text: |-
     // IfExpressions/Task2.kt
@@ -58,5 +58,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+if+Expressions+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 26 May 2021 10:54:12 UTC
 record: -1
