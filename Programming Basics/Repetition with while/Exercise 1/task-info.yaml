@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 70
-    length: 23
+    length: 114
     placeholder_text: fun displayContent() {}
     initial_state:
       length: 23
       offset: 70
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun displayContent(s: String) {
         var i = 0
@@ -69,5 +69,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 27 May 2021 18:58:28 UTC
 record: -1
