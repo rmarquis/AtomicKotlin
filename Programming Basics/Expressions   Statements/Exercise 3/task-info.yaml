@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 133
-    length: 6
+    length: 1
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 133
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 2
   text: |-
     // ExpressionsStatements/Task3.kt
@@ -39,5 +39,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 29 May 2021 21:09:27 UTC
 record: -1
