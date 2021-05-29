@@ -3,37 +3,37 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 114
+  - offset: 116
     length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 114
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: b && c
-  - offset: 126
-    length: 6
+  - offset: 128
+    length: 5
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 126
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "false"
-  - offset: 201
-    length: 6
+  - offset: 204
+    length: 4
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 201
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "true"
-  - offset: 213
+  - offset: 214
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -41,7 +41,7 @@ files:
       offset: 213
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: b || c
   text: |-
     // Summary1/Task3.kt
@@ -109,5 +109,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 29 May 2021 21:36:27 UTC
 record: -1

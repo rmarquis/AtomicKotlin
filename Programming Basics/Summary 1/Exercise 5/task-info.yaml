@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 89
-    length: 6
+    length: 100
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 89
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       for (i in start..end) {
           if ((i - start) % 5 == 4) {
@@ -81,5 +81,8 @@ files:
       fun test7() = testOutput(100, 150)
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 29 May 2021 21:45:53 UTC
 record: -1

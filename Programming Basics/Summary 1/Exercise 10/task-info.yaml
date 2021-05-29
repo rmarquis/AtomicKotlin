@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 93
-    length: 6
+    length: 356
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 93
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val width = (rows * columns).toString().length + 1
         for (i in 0 until rows) {
@@ -110,5 +110,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+Summary+1+%2F+Exercise4
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 29 May 2021 21:53:25 UTC
 record: -1

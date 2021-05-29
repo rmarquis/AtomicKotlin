@@ -4,34 +4,34 @@ files:
   visible: true
   placeholders:
   - offset: 67
-    length: 6
+    length: 29
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 67
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: println(Long.MAX_VALUE + 1)
-  - offset: 98
-    length: 6
+  - offset: 121
+    length: 31
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 98
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: println(Double.MAX_VALUE + 1)
-  - offset: 130
-    length: 6
+  - offset: 178
+    length: 51
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 130
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: println(Double.MAX_VALUE + 1 == Double.MAX_VALUE)
   text: |-
     // Summary1/Task4.kt
@@ -96,5 +96,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 29 May 2021 21:42:43 UTC
 record: -1
