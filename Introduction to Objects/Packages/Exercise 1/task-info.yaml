@@ -28,27 +28,27 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 47
-    length: 7
+  - offset: 48
+    length: 21
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 47
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       import kotlin.math.E
       import kotlin.math.PI
-  - offset: 71
-    length: 6
+  - offset: 107
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 71
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       println(PI)
         println(E)
@@ -61,5 +61,8 @@ files:
       TODO()
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 16:27:05 UTC
 record: -1

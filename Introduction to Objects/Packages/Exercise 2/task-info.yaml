@@ -57,15 +57,15 @@ files:
 - name: src/bbb.kt
   visible: true
   placeholders:
-  - offset: 31
-    length: 7
+  - offset: 30
+    length: 57
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 31
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       import aaa.*
 
@@ -79,14 +79,14 @@ files:
   visible: true
   placeholders:
   - offset: 32
-    length: 7
+    length: 81
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 32
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val x = 10
 
@@ -105,24 +105,24 @@ files:
   visible: true
   placeholders:
   - offset: 33
-    length: 7
+    length: 12
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 33
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: import bbb.*
-  - offset: 57
-    length: 7
+  - offset: 62
+    length: 15
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 57
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: println(g(1))
   text: |-
     // Packages/Task2.kt
@@ -133,5 +133,8 @@ files:
       // TODO
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 16:34:45 UTC
 record: -1
