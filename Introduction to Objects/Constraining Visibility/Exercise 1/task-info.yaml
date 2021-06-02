@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 7
+    length: 248
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Alien(val name: String, val species: String, private var planet: String) {
         fun movePlanet(newPlanet: String) {
@@ -22,15 +22,15 @@ files:
           return "Alien $name, $species: $planet"
         }
       }
-  - offset: 88
-    length: 7
+  - offset: 329
+    length: 270
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 88
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val alien1 = Alien("Arthricia", "Cat Person", "PurgeWorld")
         println(alien1)
@@ -91,5 +91,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 15:34:04 UTC
 record: -1
