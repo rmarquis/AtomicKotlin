@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 128
-    length: 6
+  - offset: 129
+    length: 9
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 128
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: a + b + c
-  - offset: 151
-    length: 6
+  - offset: 155
+    length: 132
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 151
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       sum(1, 1, 1) eq 3
         sum(1, 2, 3) eq 6
@@ -70,5 +70,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 17:10:43 UTC
 record: -1

@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 95
-    length: 6
+  - offset: 96
+    length: 35
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 95
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: if (number > 0) number else -number
-  - offset: 118
-    length: 6
+  - offset: 148
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 118
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       abs(0) eq 0
         abs(42) eq 42
@@ -85,5 +85,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 17:09:38 UTC
 record: -1
