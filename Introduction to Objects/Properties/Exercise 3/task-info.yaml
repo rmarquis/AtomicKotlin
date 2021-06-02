@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 68
-    length: 21
+    length: 264
     placeholder_text: |-
       var x = 0
         var y = 0
@@ -12,8 +12,8 @@ files:
       length: 21
       offset: 68
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       var x = 0
         var y = 0
@@ -27,51 +27,51 @@ files:
             inBounds
           }
         }
-  - offset: 121
-    length: 10
+  - offset: 366
+    length: 43
     placeholder_text: x += steps
     initial_state:
       length: 10
       offset: 121
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       x += steps
           x = crossBoundary(x)
-  - offset: 166
-    length: 10
+  - offset: 448
+    length: 43
     placeholder_text: x -= steps
     initial_state:
       length: 10
       offset: 166
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       x -= steps
           x = crossBoundary(x)
-  - offset: 211
-    length: 10
+  - offset: 530
+    length: 43
     placeholder_text: y += steps
     initial_state:
       length: 10
       offset: 211
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       y += steps
           y = crossBoundary(y)
-  - offset: 254
-    length: 10
+  - offset: 610
+    length: 43
     placeholder_text: y -= steps
     initial_state:
       length: 10
       offset: 254
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       y -= steps
           y = crossBoundary(y)
@@ -215,5 +215,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Properties+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 12:05:42 UTC
 record: -1

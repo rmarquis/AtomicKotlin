@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 52
-    length: 7
+    length: 117
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 52
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class X {
         val a = 3
@@ -22,15 +22,15 @@ files:
           return c
         }
       }
-  - offset: 76
+  - offset: 213
     length: 7
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 76
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val x = X()
         println(x.add())
@@ -91,5 +91,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Jun 2021 11:53:44 UTC
 record: -1
