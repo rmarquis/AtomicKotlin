@@ -3,28 +3,28 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 99
-    length: 23
+  - offset: 100
+    length: 47
     placeholder_text: 'fun abort(s: String) {}'
     initial_state:
       length: 23
       offset: 99
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun abort(s: String) {
         throw Exception(s)
       }
-  - offset: 139
-    length: 6
+  - offset: 210
+    length: 16
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 139
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       capture {
           abort("Stop!")
@@ -83,5 +83,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 03 Jun 2021 12:26:13 UTC
 record: -1

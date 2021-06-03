@@ -3,7 +3,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 106
+  - offset: 108
     length: 3
     placeholder_text: ???
     initial_state:
@@ -11,17 +11,17 @@ files:
       offset: 106
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 1,2
-  - offset: 115
-    length: 7
+  - offset: 117
+    length: 352
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 115
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       println("12".toDouble())
         println("1.2".toDouble())
@@ -68,5 +68,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 03 Jun 2021 12:21:31 UTC
 record: -1
