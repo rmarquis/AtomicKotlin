@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 87
-    length: 36
+  - offset: 88
+    length: 208
     placeholder_text: '// TODO: create class MessageStorage'
     initial_state:
       length: 36
       offset: 87
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class MessageStorage {
         private val _messages = mutableListOf<String>()
@@ -108,5 +108,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 05 Jun 2021 22:50:51 UTC
 record: -1

@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 87
-    length: 32
+  - offset: 88
+    length: 343
     placeholder_text: '// TODO: create class Accessible'
     initial_state:
       length: 32
       offset: 87
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Accessible {
 
@@ -138,5 +138,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 05 Jun 2021 22:43:39 UTC
 record: -1
