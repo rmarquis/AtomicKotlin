@@ -4,24 +4,24 @@ files:
   visible: true
   placeholders:
   - offset: 60
-    length: 7
+    length: 45
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 60
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '// fun foo(vararg i: Int, vararg s: String) {}'
-  - offset: 84
-    length: 7
+  - offset: 122
+    length: 54
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 84
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: println("Multiple vararg-parameters are prohibited")
   text: |-
     // Varargs/Task1.kt
@@ -54,5 +54,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 05 Jun 2021 15:55:11 UTC
 record: -1
