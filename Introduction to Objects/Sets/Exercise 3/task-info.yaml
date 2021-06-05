@@ -3,57 +3,57 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 248
-    length: 15
+  - offset: 249
+    length: 152
     placeholder_text: // countPercent
     initial_state:
       length: 15
       offset: 248
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       private fun countPercent(productsCart: Set<String>, groceryCart: Set<String>) =
         100.0 * (productsCart intersect groceryCart).size / groceryCart.size
-  - offset: 319
-    length: 6
+  - offset: 457
+    length: 34
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 319
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: countPercent(meats, groceryCart)
-  - offset: 382
-    length: 6
+  - offset: 548
+    length: 35
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 382
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: countPercent(fruits, groceryCart)
-  - offset: 447
-    length: 6
+  - offset: 642
+    length: 39
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 447
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: countPercent(vegetables, groceryCart)
-  - offset: 510
-    length: 6
+  - offset: 738
+    length: 77
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 510
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 100.0 * (groceryCart - meats - fruits - vegetables).size
       / groceryCart.size
   text: |-
@@ -161,5 +161,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Sets+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 05 Jun 2021 17:34:21 UTC
 record: -1

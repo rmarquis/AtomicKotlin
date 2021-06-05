@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 94
-    length: 6
+  - offset: 219
+    length: 33
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 94
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val set = mutableSetOf<Int>()
         var count = 0
@@ -67,5 +67,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 05 Jun 2021 16:42:52 UTC
 record: -1
