@@ -1,9 +1,17 @@
 // Summary2/Task5.kt
 package summaryIIExercise5
 
-fun va1() {}
+fun va1(vararg ints: Int) {
+    println("va1:")
+    for (i in ints) {
+        println(i)
+    }
+}
 
-fun va2() {}
+fun va2(vararg ints: Int) {
+    println("va2:")
+    va1(*ints)
+}
 
 fun main() {
 /*

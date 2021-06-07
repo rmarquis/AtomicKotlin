@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 138
-    length: 29
+  - offset: 139
+    length: 427
     placeholder_text: '// TODO: add Dictionary class'
     initial_state:
       length: 29
       offset: 138
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Dictionary {
         private val _translations = mutableMapOf<String, List<String>>()
@@ -132,5 +132,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Jun 2021 20:18:46 UTC
 record: -1

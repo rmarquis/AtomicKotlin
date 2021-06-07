@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 49
-    length: 12
+    length: 96
     placeholder_text: fun va1() {}
     initial_state:
       length: 12
       offset: 49
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun va1(vararg ints: Int) {
         println("va1:")
@@ -19,15 +19,15 @@ files:
           println(i)
         }
       }
-  - offset: 63
-    length: 12
+  - offset: 147
+    length: 64
     placeholder_text: fun va2() {}
     initial_state:
       length: 12
       offset: 63
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun va2(vararg ints: Int) {
         println("va2:")
@@ -108,5 +108,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Jun 2021 20:54:53 UTC
 record: -1

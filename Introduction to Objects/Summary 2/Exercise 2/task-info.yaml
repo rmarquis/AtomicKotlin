@@ -3,30 +3,30 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 70
-    length: 20
+  - offset: 71
+    length: 107
     placeholder_text: // add Boring2 class
     initial_state:
       length: 20
       offset: 70
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Boring2(val a: Double, val b: String, val c: Int) {
         fun a() = a
         fun b() = b
         fun c() = c
       }
-  - offset: 107
-    length: 22
+  - offset: 289
+    length: 23
     placeholder_text: TODO() // test Boring2
     initial_state:
       length: 22
       offset: 107
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val boring2 = Boring2(1.0, "abc", 3)
         boring2.a() eq 1.0
@@ -88,5 +88,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Jun 2021 16:37:58 UTC
 record: -1

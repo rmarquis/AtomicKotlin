@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 115
-    length: 6
+  - offset: 116
+    length: 210
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 115
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       mapOf(
         "M" to 1000,
@@ -27,15 +27,15 @@ files:
         "V" to 5,
         "IV" to 4,
         "I" to 1)
-  - offset: 168
-    length: 6
+  - offset: 373
+    length: 293
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 168
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       var result = 0
         var max = 0
@@ -117,5 +117,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Summary+2+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 08 Jun 2021 12:00:19 UTC
 record: -1
