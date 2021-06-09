@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 325
-    length: 6
+  - offset: 330
+    length: 265
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 325
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if (first == second) return DRAW
         val winningCombinations = mapOf(
@@ -99,5 +99,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Usability+%2F+Enumerations+%2F+Exercise3
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 09 Jun 2021 14:04:57 UTC
 record: -1
