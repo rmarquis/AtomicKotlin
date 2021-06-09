@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 91
-    length: 10
+  - offset: 92
+    length: 5
     placeholder_text: data class
     initial_state:
       length: 10
       offset: 91
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: class
   - offset: 153
-    length: 0
+    length: 78
     placeholder_text: ""
     initial_state:
       length: 0
       offset: 153
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
        {
         operator fun component1() = data
@@ -100,5 +100,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 09 Jun 2021 19:14:14 UTC
 record: -1

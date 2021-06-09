@@ -3,18 +3,18 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 111
-    length: 26
+  - offset: 113
+    length: 22
     placeholder_text: '// TODO: add property here'
     initial_state:
       length: 26
       offset: 111
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'val surname: String,'
   - offset: 198
-    length: 32
+    length: 53
     placeholder_text: |-
       val (name, age) = person
       // TODO
@@ -23,13 +23,13 @@ files:
       offset: 198
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       val (name, age) = person
         println("Name: $name")
         println("Age: $age")
-  - offset: 247
-    length: 109
+  - offset: 293
+    length: 118
     placeholder_text: |-
       val person = Person("Alice",  30)
       //  val person = Person("Alice", "Johnson", 30)
@@ -38,8 +38,8 @@ files:
       length: 109
       offset: 247
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         // val person = Person("Alice",  30)
         val person = Person("Alice", "Johnson", 30)
@@ -112,5 +112,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 09 Jun 2021 19:19:07 UTC
 record: -1
