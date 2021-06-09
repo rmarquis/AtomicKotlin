@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 32
+    length: 153
     placeholder_text: // Implement AirlineTicket class
     initial_state:
       length: 32
       offset: 54
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       data class AirlineTicket(
         val firstName: String,
@@ -20,8 +20,8 @@ files:
         val origin: String,
         val destination: String
       )
-  - offset: 101
-    length: 96
+  - offset: 222
+    length: 113
     placeholder_text: |-
       /*
         val ticket = AirlineTicket("Bruce", "Eckel",
@@ -32,8 +32,8 @@ files:
       length: 96
       offset: 101
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val ticket = AirlineTicket("Bruce", "Eckel",
           123456, "DEN", "HND")
@@ -86,5 +86,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 09 Jun 2021 16:21:12 UTC
 record: -1
