@@ -3,20 +3,20 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 98
-    length: 17
+  - offset: 99
+    length: 57
     placeholder_text: fun downcase() {}
     initial_state:
       length: 17
       offset: 98
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun downcase(s: String?): String =
         s?.toLowerCase() ?: ""
-  - offset: 130
-    length: 55
+  - offset: 171
+    length: 54
     placeholder_text: |-
       /*
         downcase(null) eq ""
@@ -26,8 +26,8 @@ files:
       length: 55
       offset: 130
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         downcase(null) eq ""
         downcase("ABC") eq "abc"
@@ -75,5 +75,8 @@ files:
         fun test4() = testDowncase(null)
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 10 Jun 2021 20:32:42 UTC
 record: -1
