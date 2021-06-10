@@ -5,6 +5,6 @@ fun zilch(): String? = null
 fun zilch2(): String? = zilch()
 
 fun main() {
-  var x: String? = zilch()
-  var y: String? = zilch2()
+    var x: String? = zilch()
+    var y: String? = zilch2()
 }
