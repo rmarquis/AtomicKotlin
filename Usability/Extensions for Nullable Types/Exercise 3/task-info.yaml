@@ -4,20 +4,20 @@ files:
   visible: true
   placeholders:
   - offset: 139
-    length: 56
+    length: 91
     placeholder_text: // TODO Implement 'empty' and 'full' extension functions
     initial_state:
       length: 56
       offset: 139
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun Container?.empty() = this == null || contents == null
 
       fun Container?.full() = !empty()
-  - offset: 210
-    length: 199
+  - offset: 245
+    length: 206
     placeholder_text: |-
       /*
         val container = Container(42)
@@ -32,8 +32,8 @@ files:
       length: 199
       offset: 210
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val container = Container(42)
         container.empty() eq false
@@ -109,5 +109,8 @@ files:
         fun test3() = testContainer("abc", "\"abc\"")
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 11 Jun 2021 16:53:22 UTC
 record: -1
