@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 120
-    length: 71
+  - offset: 122
+    length: 19
     placeholder_text: |-
       for (i in list) {
           if (i == 0) break
@@ -14,25 +14,25 @@ files:
       length: 71
       offset: 120
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: analyzeList(list)
-  - offset: 251
-    length: 7
+  - offset: 203
+    length: 84
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 251
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       for (i in list) {
           if (i == 0) return
           println("analyzing $i")
         }
-  - offset: 343
-    length: 48
+  - offset: 376
+    length: 21
     placeholder_text: |-
       if (i == 0) continue
           println("analyzing $i")
@@ -40,18 +40,18 @@ files:
       length: 48
       offset: 343
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: analyzeElement(i)
-  - offset: 449
-    length: 7
+  - offset: 459
+    length: 48
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 449
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if (i == 0) return
         println("analyzing $i")
@@ -183,5 +183,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 12 Jun 2021 13:05:18 UTC
 record: -1

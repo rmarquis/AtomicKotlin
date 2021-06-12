@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 215
-    length: 12
+  - offset: 227
+    length: 6
     placeholder_text: // add label
     initial_state:
       length: 12
       offset: 215
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@inner'
-  - offset: 417
-    length: 12
+  - offset: 447
+    length: 6
     placeholder_text: // add label
     initial_state:
       length: 12
       offset: 417
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@outer'
   text: |-
     // BreakAndContinue/Task2.kt
@@ -130,5 +130,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 12 Jun 2021 13:02:09 UTC
 record: -1
