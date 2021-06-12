@@ -3,20 +3,20 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 91
-    length: 29
+  - offset: 92
+    length: 56
     placeholder_text: '// TODO: implement ''reversed'''
     initial_state:
       length: 29
       offset: 91
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val <T> List<T>.reversed: List<T>
         get() = reversed()
-  - offset: 135
-    length: 69
+  - offset: 163
+    length: 68
     placeholder_text: |-
       /*
         val list = listOf(1, 2, 3)
@@ -26,8 +26,8 @@ files:
       length: 69
       offset: 135
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val list = listOf(1, 2, 3)
         list.reversed eq listOf(3, 2, 1)
@@ -80,5 +80,8 @@ files:
       fun test4() = testProp(('a'..'z').toList())
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 12 Jun 2021 11:24:11 UTC
 record: -1
