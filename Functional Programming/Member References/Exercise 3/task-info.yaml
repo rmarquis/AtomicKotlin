@@ -3,66 +3,66 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 269
-    length: 6
+  - offset: 272
+    length: 47
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 269
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: return (2 until num).filter { num % it == 0 }
-  - offset: 310
-    length: 6
+  - offset: 354
+    length: 59
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 310
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: return this != 1 && getNonTrivialDivisors(this).isEmpty()
-  - offset: 357
-    length: 6
+  - offset: 454
+    length: 64
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 357
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: return num != 1 && 1 + getNonTrivialDivisors(num).sum()
       == num
-  - offset: 428
-    length: 6
+  - offset: 587
+    length: 11
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 428
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Int::isEven
-  - offset: 483
-    length: 6
+  - offset: 651
+    length: 12
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 483
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: Int::isPrime
-  - offset: 640
-    length: 6
+  - offset: 828
+    length: 11
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 640
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ::isPerfect
   text: |-
     // MemberReferences/Task3.kt
@@ -160,5 +160,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Functional+Programming+%2F+Member+References+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 15 Jun 2021 20:40:09 UTC
 record: -1
