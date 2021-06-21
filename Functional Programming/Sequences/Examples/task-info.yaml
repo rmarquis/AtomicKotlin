@@ -182,6 +182,6 @@ files:
       }.toList() eq listOf(6, 5, 4, 3, 2, 1)
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

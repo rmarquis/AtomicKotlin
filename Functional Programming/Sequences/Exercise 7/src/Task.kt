@@ -2,9 +2,10 @@
 package sequencesExercise7
 
 fun oddWithout1(): Sequence<Int> {
-  TODO()
+    return generateSequence(1) { it + 2 }
+        .filter { '1' !in it.toString() }
 }
 
 fun main() {
-  TODO()
+    println(oddWithout1().take(20).sum())
 }
