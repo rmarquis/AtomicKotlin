@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 124
-    length: 6
+  - offset: 125
+    length: 93
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 124
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       trace("Simulation: $group Reality: $level")
         if (level > 0) simulation(group, level - 1)
@@ -82,5 +82,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 22 Jun 2021 13:14:21 UTC
 record: -1

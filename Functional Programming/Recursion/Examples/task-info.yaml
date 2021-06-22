@@ -156,6 +156,6 @@ files:
       fibonacci(50) eq 12586269025
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
