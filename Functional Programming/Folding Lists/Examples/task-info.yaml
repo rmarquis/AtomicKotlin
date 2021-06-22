@@ -86,6 +86,6 @@ files:
       } eq "[11, 24, 41, 60]"
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
