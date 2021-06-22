@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 142
-    length: 6
+  - offset: 143
+    length: 195
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 142
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       var i: Int? = null
           fun add(value: Int) {
@@ -79,5 +79,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 22 Jun 2021 12:20:22 UTC
 record: -1
