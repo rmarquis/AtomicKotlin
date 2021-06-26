@@ -3,55 +3,55 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 91
-    length: 7
+  - offset: 92
+    length: 19
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 91
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'val sound: String'
-  - offset: 121
-    length: 7
+  - offset: 132
+    length: 41
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 121
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: override val sound get() = "Bark!"
-  - offset: 151
-    length: 7
+  - offset: 194
+    length: 42
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 151
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: override val sound get() = "Meow!"
-  - offset: 185
-    length: 7
+  - offset: 260
+    length: 43
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 185
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: override val sound get() = "Squeak!"
-  - offset: 211
-    length: 7
+  - offset: 322
+    length: 99
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 211
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val pets = listOf(Dog(), Cat(), Hamster())
         pets.map { it.sound } eq "[Bark!, Meow!, Squeak!]"
@@ -139,5 +139,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 26 Jun 2021 21:13:39 UTC
 record: -1

@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 126
-    length: 11
+  - offset: 129
+    length: 170
     placeholder_text: class Cloud
     initial_state:
       length: 11
       offset: 126
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Cloud(n: Int): Computer {
         val list: List<Node> = List(n) { Node(it) }
@@ -23,15 +23,15 @@ files:
       data class Node(val result: Int): Computer {
         override fun calculateAnswer() = result
       }
-  - offset: 154
-    length: 36
+  - offset: 409
+    length: 35
     placeholder_text: // Cloud(10).calculateAnswer() eq 45
     initial_state:
       length: 36
       offset: 154
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Cloud(10).calculateAnswer() eq 45
   text: |-
     // Interfaces/Task1.kt
@@ -111,5 +111,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 26 Jun 2021 20:46:31 UTC
 record: -1
