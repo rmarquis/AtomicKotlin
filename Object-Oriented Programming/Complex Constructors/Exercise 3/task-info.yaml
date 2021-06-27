@@ -3,35 +3,35 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 171
-    length: 7
+  - offset: 177
+    length: 22
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 171
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: initOrder += "one"
-  - offset: 196
-    length: 7
+  - offset: 222
+    length: 22
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 196
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: initOrder += "two"
-  - offset: 221
-    length: 7
+  - offset: 267
+    length: 24
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 221
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: initOrder += "three"
   text: |-
     // ComplexConstructors/Exercise3.kt
@@ -93,5 +93,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 27 Jun 2021 13:11:39 UTC
 record: -1

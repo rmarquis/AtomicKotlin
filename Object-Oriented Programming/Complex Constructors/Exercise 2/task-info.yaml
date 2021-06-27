@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 95
-    length: 14
+  - offset: 96
+    length: 135
     placeholder_text: class SumChars
     initial_state:
       length: 14
       offset: 95
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class SumChars(text: String) {
         val sum: Int
@@ -20,15 +20,15 @@ files:
           sum = calc()
         }
       }
-  - offset: 126
-    length: 31
+  - offset: 248
+    length: 30
     placeholder_text: // SumChars("What?").sum eq 467
     initial_state:
       length: 31
       offset: 126
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: SumChars("What?").sum eq 467
   text: |-
     // ComplexConstructors/Exercise2.kt
@@ -80,5 +80,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 27 Jun 2021 13:09:05 UTC
 record: -1
