@@ -28,8 +28,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 195
-    length: 312
+  - offset: 198
+    length: 148
     placeholder_text: |-
       class GardenItem(
           val name: String
@@ -52,8 +52,8 @@ files:
       length: 312
       offset: 195
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class GardenItem(
         val name: String = "Strange Thing",
@@ -100,5 +100,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Object-Oriented+Programming+%2F+Secondary+Constructors+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 28 Jun 2021 20:12:46 UTC
 record: -1

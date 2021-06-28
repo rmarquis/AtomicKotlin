@@ -3,28 +3,28 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 136
-    length: 23
+  - offset: 137
+    length: 30
     placeholder_text: // TODO add constructor
     initial_state:
       length: 23
       offset: 136
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'constructor(): this("Daisy")'
-  - offset: 182
-    length: 16
+  - offset: 190
+    length: 26
     placeholder_text: 'val type: String'
     initial_state:
       length: 16
       offset: 182
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'val type: String = "Daisy"'
-  - offset: 214
-    length: 63
+  - offset: 232
+    length: 59
     placeholder_text: |-
       //    Flower1().type eq "Daisy"
       //    Flower2().type eq "Daisy"
@@ -33,7 +33,7 @@ files:
       offset: 214
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         Flower1().type eq "Daisy"
         Flower2().type eq "Daisy"
@@ -102,5 +102,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 28 Jun 2021 20:07:43 UTC
 record: -1

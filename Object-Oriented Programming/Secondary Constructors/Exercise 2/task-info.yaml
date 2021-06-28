@@ -4,19 +4,19 @@ files:
   visible: true
   placeholders:
   - offset: 138
-    length: 33
+    length: 80
     placeholder_text: // TODO add secondary constructor
     initial_state:
       length: 33
       offset: 138
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       constructor(shipClass: String, model: Int)
           : this("$shipClass-$model")
-  - offset: 266
-    length: 74
+  - offset: 313
+    length: 72
     placeholder_text: |-
       //    SpaceShip("MClass", 29321) eq
       //      "SpaceShip(name=MClass-29321)"
@@ -25,7 +25,7 @@ files:
       offset: 266
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         SpaceShip("MClass", 29321) eq
           "SpaceShip(name=MClass-29321)"
@@ -113,5 +113,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 28 Jun 2021 20:10:24 UTC
 record: -1
