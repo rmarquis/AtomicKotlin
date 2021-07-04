@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 99
-    length: 34
+  - offset: 100
+    length: 95
     placeholder_text: // TODO add property and functions
     initial_state:
       length: 34
       offset: 99
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val ops = mutableListOf<String>()
         fun dilute() {
@@ -23,8 +23,8 @@ files:
         fun scrub() {
           ops += "scrub"
         }
-  - offset: 185
-    length: 154
+  - offset: 332
+    length: 167
     placeholder_text: |-
       /*
         val detergent = Detergent()
@@ -39,7 +39,7 @@ files:
       offset: 185
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         val detergent = Detergent()
         detergent.dilute()
@@ -127,5 +127,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 04 Jul 2021 12:15:01 UTC
 record: -1

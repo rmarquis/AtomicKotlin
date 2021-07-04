@@ -3,23 +3,23 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 113
-    length: 18
+  - offset: 114
+    length: 91
     placeholder_text: class Disinfectant
     initial_state:
       length: 18
       offset: 113
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Disinfectant: Detergent() {
         fun sterilize() {
           ops += "sterilize"
         }
       }
-  - offset: 146
-    length: 212
+  - offset: 220
+    length: 227
     placeholder_text: |-
       /*
         val disinfectant = Disinfectant()
@@ -35,7 +35,7 @@ files:
       offset: 146
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         val disinfectant = Disinfectant()
         disinfectant.dilute()
@@ -128,5 +128,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 04 Jul 2021 12:40:13 UTC
 record: -1

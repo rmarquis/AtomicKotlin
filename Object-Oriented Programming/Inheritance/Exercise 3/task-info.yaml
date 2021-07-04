@@ -3,55 +3,55 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 95
-    length: 7
+  - offset: 96
+    length: 87
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 95
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val initOrder = mutableListOf<String>()
         init {
           initOrder += "Game"
         }
-  - offset: 139
-    length: 7
+  - offset: 221
+    length: 47
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 139
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       init {
           initOrder += "BoardGame"
         }
-  - offset: 179
-    length: 7
+  - offset: 302
+    length: 43
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 179
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       init {
           initOrder += "Chess"
         }
-  - offset: 205
-    length: 50
+  - offset: 364
+    length: 49
     placeholder_text: // Chess().initOrder eq "[Game, BoardGame, Chess]"
     initial_state:
       length: 50
       offset: 205
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Chess().initOrder eq "[Game, BoardGame, Chess]"
   text: |-
     // Inheritance/Task3.kt
@@ -130,5 +130,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 04 Jul 2021 12:43:50 UTC
 record: -1
