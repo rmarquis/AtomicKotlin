@@ -3,38 +3,38 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 76
-    length: 22
+  - offset: 77
+    length: 17
     placeholder_text: abstract class Movable
     initial_state:
       length: 22
       offset: 76
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: interface Movable
-  - offset: 126
-    length: 24
+  - offset: 124
+    length: 19
     placeholder_text: abstract class Sleepable
     initial_state:
       length: 24
       offset: 126
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: interface Sleepable
-  - offset: 182
-    length: 37
+  - offset: 177
+    length: 32
     placeholder_text: '// class Sofa: Movable(), Sleepable()'
     initial_state:
       length: 37
       offset: 182
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'class Sofa: Movable, Sleepable'
-  - offset: 234
-    length: 77
+  - offset: 223
+    length: 78
     placeholder_text: |-
       /*
         val sofa = Sofa()
@@ -46,7 +46,7 @@ files:
       offset: 234
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         val sofa = Sofa()
         sofa.move() eq "move"
@@ -129,5 +129,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 04 Jul 2021 13:46:10 UTC
 record: -1
