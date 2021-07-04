@@ -3,23 +3,23 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 92
-    length: 49
+  - offset: 93
+    length: 96
     placeholder_text: '/* TODO: Implement Animal, Cat and Dog classes */'
     initial_state:
       length: 49
       offset: 92
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       open class Animal(val sound: String = "???")
 
       class Cat(sound: String = "meow") : Animal(sound)
 
       class Dog(sound: String = "woof") : Animal(sound)
-  - offset: 156
-    length: 125
+  - offset: 254
+    length: 132
     placeholder_text: |-
       /*
         val animal = Animal()
@@ -33,8 +33,8 @@ files:
       length: 125
       offset: 156
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val animal = Animal()
         trace(animal.sound)
@@ -135,5 +135,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 04 Jul 2021 13:19:21 UTC
 record: -1
