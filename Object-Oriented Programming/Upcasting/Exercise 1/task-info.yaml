@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 429
-    length: 6
+  - offset: 446
+    length: 21
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 429
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       trace(rodent.eat())
         trace(rodent.speak())
@@ -127,5 +127,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 05 Jul 2021 16:03:09 UTC
 record: -1

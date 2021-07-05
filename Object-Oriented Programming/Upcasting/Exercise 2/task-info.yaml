@@ -3,67 +3,67 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 116
-    length: 17
+  - offset: 119
+    length: 86
     placeholder_text: class GrannySmith
     initial_state:
       length: 17
       offset: 116
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class GrannySmith : Apple {
         override fun consume() = "chomp GrannySmith"
       }
-  - offset: 135
-    length: 10
+  - offset: 207
+    length: 71
     placeholder_text: class Gala
     initial_state:
       length: 10
       offset: 135
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Gala : Apple {
         override fun consume() = "bite Gala"
       }
-  - offset: 147
-    length: 10
+  - offset: 280
+    length: 72
     placeholder_text: class Fuji
     initial_state:
       length: 10
       offset: 147
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Fuji : Apple {
         override fun consume() = "press Fuji"
       }
-  - offset: 159
-    length: 14
+  - offset: 354
+    length: 79
     placeholder_text: class Braeburn
     initial_state:
       length: 14
       offset: 159
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Braeburn : Apple {
         override fun consume() = "peel Braeburn"
       }
-  - offset: 288
-    length: 6
+  - offset: 570
+    length: 12
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 288
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: it.consume()
   text: |-
     // Upcasting/Task2.kt
@@ -153,5 +153,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 05 Jul 2021 16:40:25 UTC
 record: -1
