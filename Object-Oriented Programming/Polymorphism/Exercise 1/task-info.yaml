@@ -3,43 +3,43 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 592
-    length: 12
+  - offset: 617
+    length: 77
     placeholder_text: class Dragon
     initial_state:
       length: 12
       offset: 592
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Dragon:
         Character("Dragon"), Flyer {
         override fun play() = fly()
       }
-  - offset: 606
-    length: 12
+  - offset: 696
+    length: 101
     placeholder_text: class Wizard
     initial_state:
       length: 12
       offset: 606
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Wizard:
         Character("Magician"), Magician, Flyer {
         override fun play() = doMagic() + fly()
       }
-  - offset: 774
-    length: 6
+  - offset: 977
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 774
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: it.playTurn()
   text: |-
     // Polymorphism/Task1.kt
@@ -158,5 +158,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 08 Jul 2021 16:10:23 UTC
 record: -1

@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 80
-    length: 7
+    length: 497
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 80
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       interface Connection {
         fun send(message: String)
@@ -38,8 +38,8 @@ files:
       ) {
         fun transmit() = connection.send(text)
       }
-  - offset: 102
-    length: 210
+  - offset: 592
+    length: 223
     placeholder_text: |-
       /*
         listOf(
@@ -57,8 +57,8 @@ files:
       length: 210
       offset: 102
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         listOf(
           Message("We", Text()),
@@ -106,5 +106,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 08 Jul 2021 16:48:01 UTC
 record: -1
