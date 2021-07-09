@@ -3,35 +3,35 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 93
-    length: 25
+  - offset: 94
+    length: 42
     placeholder_text: // private val arrayDeque
     initial_state:
       length: 25
       offset: 93
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: private val arrayDeque = ArrayDeque<E>()
-  - offset: 137
-    length: 6
+  - offset: 157
+    length: 21
     placeholder_text: '"TODO"'
     initial_state:
       length: 6
       offset: 137
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: arrayDeque.addLast(e)
-  - offset: 162
-    length: 6
+  - offset: 199
+    length: 24
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 162
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: arrayDeque.removeFirst()
   text: |-
     // Composition/Task3.kt
@@ -104,5 +104,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 09 Jul 2021 19:15:38 UTC
 record: -1
