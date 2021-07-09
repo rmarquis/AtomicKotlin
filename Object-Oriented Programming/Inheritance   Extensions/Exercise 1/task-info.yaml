@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 562
-    length: 45
+  - offset: 583
+    length: 145
     placeholder_text: |-
       class CrocoDuck(
         val crocodile: Crocodile
@@ -13,8 +13,8 @@ files:
       length: 45
       offset: 562
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class CrocoDuck(
           val crocodile: Crocodile
@@ -22,17 +22,17 @@ files:
         override fun quack() = crocodile.bite()
         override fun swim() = crocodile.bite()
       }
-  - offset: 662
-    length: 6
+  - offset: 781
+    length: 22
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 662
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: CrocoDuck(crocodile)
-  - offset: 731
+  - offset: 868
     length: 84
     placeholder_text: |-
       //  interactWithDuck(honestlyDuck)
@@ -42,7 +42,7 @@ files:
       offset: 731
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         interactWithDuck(honestlyDuck)
         interactWithCrocodile(honestlyDuck.crocodile)
@@ -185,5 +185,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 09 Jul 2021 19:31:35 UTC
 record: -1

@@ -3,51 +3,51 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 404
-    length: 6
+  - offset: 432
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 404
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       speak()
         sit()
-  - offset: 437
-    length: 6
+  - offset: 471
+    length: 33
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 437
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       (this as Dog).play()
         feed()
-  - offset: 469
-    length: 6
+  - offset: 530
+    length: 44
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 469
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       (this as Dog).play()
         changeBatteries()
-  - offset: 550
-    length: 4
+  - offset: 655
+    length: 23
     placeholder_text: TODO
     initial_state:
       length: 4
       offset: 550
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       b.a.r.k.
           Sitting...
@@ -154,5 +154,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 09 Jul 2021 19:34:05 UTC
 record: -1

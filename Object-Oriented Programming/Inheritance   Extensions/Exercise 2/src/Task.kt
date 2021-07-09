@@ -1,37 +1,42 @@
 // InheritanceExtensions/InhExtensionsEx1.kt
 package inheritanceAndExtensionsExercise2
+
 import atomictest.*
 
 open class Dog {
-  open fun speak() = trace("Bark!")
-  open fun sit() = trace("Sitting...")
+    open fun speak() = trace("Bark!")
+    open fun sit() = trace("Sitting...")
 }
 
 open class RealDog : Dog() {
-  fun feed() = trace("Feed")
+    fun feed() = trace("Feed")
 }
 
 class ToyDog : Dog() {
-  override fun speak() = trace("b.a.r.k.")
-  fun changeBatteries() = trace("Change batteries")
+    override fun speak() = trace("b.a.r.k.")
+    fun changeBatteries() = trace("Change batteries")
 }
 
 fun Dog.play() {
-  TODO()
+    this.speak()
+    this.sit()
 }
 
 fun RealDog.play() {
-  TODO()
+    (this as Dog).play()
+    feed()
 }
 
 fun ToyDog.play() {
-  TODO()
+    (this as Dog).play()
+    changeBatteries()
 }
 
 fun main() {
-  val dog: Dog = ToyDog()
-  dog.play()
-  trace eq """
-    TODO
+    val dog: Dog = ToyDog()
+    dog.play()
+    trace eq """
+    b.a.r.k.
+    Sitting...
   """
 }
