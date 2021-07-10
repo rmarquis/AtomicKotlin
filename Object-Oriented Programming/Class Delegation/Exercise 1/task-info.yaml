@@ -3,55 +3,55 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 129
-    length: 7
+  - offset: 132
+    length: 29
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 129
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'fun resize(scale: Int): Int'
-  - offset: 282
-    length: 7
+  - offset: 318
+    length: 47
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 282
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'override fun resize(scale: Int) = scale'
-  - offset: 371
-    length: 7
+  - offset: 450
+    length: 29
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 371
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'fun rightClicked(): Boolean'
-  - offset: 482
-    length: 7
+  - offset: 584
+    length: 40
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 482
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: override fun rightClicked() = true
-  - offset: 841
-    length: 7
+  - offset: 1003
+    length: 51
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 841
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       button.resize(10) eq 10
         button.rightClicked() eq true
@@ -188,5 +188,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 10 Jul 2021 19:48:27 UTC
 record: -1

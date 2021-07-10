@@ -3,43 +3,43 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 164
-    length: 8
+  - offset: 173
+    length: 102
     placeholder_text: class AA
     initial_state:
       length: 8
       offset: 164
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class AA : A {
         override fun foo() = trace("AA.foo()")
         override fun bar() = trace("AA.bar()")
       }
-  - offset: 174
-    length: 8
+  - offset: 277
+    length: 104
     placeholder_text: class BB
     initial_state:
       length: 8
       offset: 174
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class BB : B {
         override fun foo() = trace("BB.foo()")
         override fun baz() = trace("BB.baz()")
       }
-  - offset: 184
-    length: 16
+  - offset: 379
+    length: 160
     placeholder_text: class Delegation
     initial_state:
       length: 16
       offset: 184
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Delegation(val a: A, val b: B) :
         A by a, B by b {
@@ -49,8 +49,8 @@ files:
           trace("Delegation.foo()")
         }
       }
-  - offset: 215
-    length: 68
+  - offset: 553
+    length: 71
     placeholder_text: |-
       /*
         val d = Delegation(AA(), BB())
@@ -62,8 +62,8 @@ files:
       length: 68
       offset: 215
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val d = Delegation(AA(), BB())
         d.foo()
@@ -121,5 +121,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 10 Jul 2021 20:10:00 UTC
 record: -1

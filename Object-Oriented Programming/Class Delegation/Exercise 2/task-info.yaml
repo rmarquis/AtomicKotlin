@@ -3,35 +3,35 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 566
-    length: 13
+  - offset: 587
+    length: 9
     placeholder_text: /* private */
     initial_state:
       length: 13
       offset: 566
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: private
-  - offset: 613
-    length: 10
+  - offset: 630
+    length: 24
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 613
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ', Crocodile by crocodile'
-  - offset: 903
-    length: 22
+  - offset: 946
+    length: 12
     placeholder_text: honestlyDuck.crocodile
     initial_state:
       length: 22
       offset: 903
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: honestlyDuck
   text: |-
     // ClassDelegation/Task2.kt
@@ -104,5 +104,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 10 Jul 2021 20:03:52 UTC
 record: -1
