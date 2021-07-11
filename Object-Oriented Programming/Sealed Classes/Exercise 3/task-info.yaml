@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 111
-    length: 113
+  - offset: 112
+    length: 133
     placeholder_text: |-
       sealed class Top
       class Middle1 : Top()
@@ -15,8 +15,8 @@ files:
       length: 113
       offset: 111
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       sealed class Top {
         class Middle1 : Top()
@@ -24,15 +24,15 @@ files:
         open class Middle3 : Top()
         class Bottom3 : Middle3()
       }
-  - offset: 335
-    length: 33
+  - offset: 370
+    length: 101
     placeholder_text: // TODO display random subclasses
     initial_state:
       length: 33
       offset: 335
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val rand = Random(17)
         Top::class.sealedSubclasses
@@ -106,5 +106,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 11 Jul 2021 10:53:10 UTC
 record: -1
