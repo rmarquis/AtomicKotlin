@@ -17,15 +17,15 @@ files:
 - name: src/TaskA.kt
   visible: true
   placeholders:
-  - offset: 91
-    length: 7
+  - offset: 92
+    length: 1588
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 91
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       sealed class BeverageContainer {
         abstract fun open(): String
@@ -93,15 +93,15 @@ files:
 - name: src/TaskB.kt
   visible: true
   placeholders:
-  - offset: 116
-    length: 7
+  - offset: 117
+    length: 1333
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 116
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       interface BeverageContainer {
         fun open(): String
@@ -167,5 +167,8 @@ files:
 
     // TODO
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 11 Jul 2021 15:52:38 UTC
 record: -1
