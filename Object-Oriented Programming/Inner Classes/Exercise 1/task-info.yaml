@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 80
-    length: 7
+  - offset: 81
+    length: 912
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 80
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun interface Pet {
         fun speak(): String
@@ -70,5 +70,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 16:05:36 UTC
 record: -1

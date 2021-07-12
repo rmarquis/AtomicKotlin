@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 159
-    length: 7
+  - offset: 166
+    length: 828
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 159
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Container<T>(
         iterable: Iterable<T>
@@ -45,8 +45,8 @@ files:
         while (iter.hasNext())
           trace("${iter.next()}")
       }
-  - offset: 181
-    length: 320
+  - offset: 1009
+    length: 355
     placeholder_text: |-
       /*
         traceAll(Container(0..9).selector())
@@ -63,8 +63,8 @@ files:
       length: 320
       offset: 181
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         traceAll(Container(0..9).selector())
         trace eq "0 1 2 3 4 5 6 7 8 9"
@@ -116,5 +116,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 16:17:02 UTC
 record: -1
