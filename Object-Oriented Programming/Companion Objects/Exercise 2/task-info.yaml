@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 285
-    length: 7
+  - offset: 309
+    length: 751
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 285
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Checkers private constructor() : BoardGame {
         private var moves = 0
@@ -42,8 +42,8 @@ files:
           override fun create() = Chess()
         }
       }
-  - offset: 399
-    length: 247
+  - offset: 1170
+    length: 266
     placeholder_text: |-
       /*
         playGame(Checkers.Factory)
@@ -64,8 +64,8 @@ files:
       length: 247
       offset: 399
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         playGame(Checkers.Factory)
         playGame(Chess.Factory)
@@ -138,5 +138,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 16:31:16 UTC
 record: -1

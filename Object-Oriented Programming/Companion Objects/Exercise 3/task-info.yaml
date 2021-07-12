@@ -3,21 +3,21 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 216
-    length: 7
+  - offset: 223
+    length: 199
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 216
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       const val size = 10
           private val r = Random(47)
           private val source =
             ('a'..'z') + ('A'..'Z') + ('0'..'9')
-  - offset: 262
+  - offset: 471
     length: 6
     placeholder_text: '"TODO"'
     initial_state:
@@ -25,81 +25,81 @@ files:
       offset: 262
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       (1..size).map { source.random(r) }
             .joinToString("")
-  - offset: 647
-    length: 6
+  - offset: 900
+    length: 21
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 647
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: id = verifiedID
-  - offset: 697
-    length: 7
+  - offset: 974
+    length: 32
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 697
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'private var i: Long = 1000'
-  - offset: 751
-    length: 6
+  - offset: 1059
+    length: 3
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 751
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: i++
-  - offset: 789
-    length: 6
+  - offset: 1103
+    length: 34
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 789
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: number = nextAccountNumber()
-  - offset: 892
-    length: 6
+  - offset: 1248
+    length: 30
     placeholder_text: '"TODO"'
     initial_state:
       length: 6
       offset: 892
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: applied.add(Account(name))
-  - offset: 921
-    length: 6
+  - offset: 1304
+    length: 55
     placeholder_text: '"TODO"'
     initial_state:
       length: 6
       offset: 921
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       applied
           .first { it.name == id.name }.addID(id)
-  - offset: 972
-    length: 6
+  - offset: 1407
+    length: 154
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 972
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val account =
             applied.first { it.id == verifiedID }
@@ -191,5 +191,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 16:34:30 UTC
 record: -1
