@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 82
-    length: 7
+  - offset: 83
+    length: 1089
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 82
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       abstract class Cleanable(val id: String) {
         open val parts: List<Cleanable> = listOf()
@@ -87,5 +87,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 12:33:04 UTC
 record: -1

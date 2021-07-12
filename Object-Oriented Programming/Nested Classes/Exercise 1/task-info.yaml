@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 81
-    length: 44
+  - offset: 82
+    length: 41
     placeholder_text: // import nestedClassesExercise1.Game.Mark.*
     initial_state:
       length: 44
       offset: 81
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: import nestedClassesExercise1.Game.Mark.*
-  - offset: 194
-    length: 7
+  - offset: 192
+    length: 1087
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 194
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       interface Game {
         enum class Mark { BLANK, X, Y, Z }
@@ -94,5 +94,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 11:51:44 UTC
 record: -1

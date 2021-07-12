@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 82
-    length: 39
+  - offset: 83
+    length: 36
     placeholder_text: // import nestedClassesExercise4.Seat.*
     initial_state:
-      length: 39
-      offset: 82
+      length: 36
+      offset: 83
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: import nestedClassesExercise4.Seat.*
-  - offset: 123
-    length: 7
+  - offset: 121
+    length: 1381
     placeholder_text: // TODO
     initial_state:
-      length: 7
-      offset: 123
+      length: 1381
+      offset: 121
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       abstract class Seat {
         abstract fun upgrade(): Seat
@@ -97,5 +97,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 12 Jul 2021 12:36:30 UTC
 record: -1
