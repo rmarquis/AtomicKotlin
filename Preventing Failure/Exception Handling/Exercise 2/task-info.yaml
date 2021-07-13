@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 586
-    length: 6
+  - offset: 627
+    length: 120
     placeholder_text: '"TODO"'
     initial_state:
       length: 6
       offset: 586
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       try {
           trace(embedNumber(
@@ -20,15 +20,15 @@ files:
         } catch (e: NumberFail) {
           trace("$e")
         }
-  - offset: 621
-    length: 6
+  - offset: 776
+    length: 213
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 621
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       val ns: String = try {
           findNumber(s)
@@ -122,5 +122,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 13 Jul 2021 14:14:23 UTC
 record: -1

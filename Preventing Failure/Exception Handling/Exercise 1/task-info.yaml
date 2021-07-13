@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 156
-    length: 25
+  - offset: 157
+    length: 395
     placeholder_text: // TODO exception classes
     initial_state:
       length: 25
       offset: 156
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       open class HamsterCageException(
         val msg: String
@@ -28,15 +28,15 @@ files:
 
       class OutOfWaterException :
         HamsterCageException("Cage out of water")
-  - offset: 296
-    length: 7
+  - offset: 671
+    length: 388
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 296
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun add(h: Hamster) {
           if (cage.size >= capacity)
@@ -51,15 +51,15 @@ files:
             throw OutOfWaterException()
           return "Feeding complete"
         }
-  - offset: 475
-    length: 7
+  - offset: 1238
+    length: 428
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 475
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       try {
           hamsters.forEach {
@@ -134,5 +134,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 13 Jul 2021 12:48:03 UTC
 record: -1
