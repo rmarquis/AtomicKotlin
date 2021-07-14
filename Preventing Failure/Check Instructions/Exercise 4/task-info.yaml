@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 103
-    length: 10
+  - offset: 104
+    length: 1148
     placeholder_text: class Tank
     initial_state:
       length: 10
       offset: 103
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Tank(val capacity: Double) {
         val safetyGap = 0.02 * capacity // 2%
@@ -54,8 +54,8 @@ files:
           }
         }
       }
-  - offset: 128
-    length: 428
+  - offset: 1266
+    length: 487
     placeholder_text: |-
       /*
         val tank = Tank(100.0)
@@ -78,7 +78,7 @@ files:
       offset: 128
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         val tank = Tank(100.0)
         tank.add(100.0) eq 2.0
@@ -134,5 +134,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 14 Jul 2021 16:57:29 UTC
 record: -1

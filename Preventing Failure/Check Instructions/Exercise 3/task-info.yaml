@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 103
-    length: 19
+  - offset: 104
+    length: 579
     placeholder_text: // TODO class Level
     initial_state:
       length: 19
       offset: 103
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Level(
         val range: IntRange,
@@ -41,8 +41,8 @@ files:
           level = new
         }
       }
-  - offset: 137
-    length: 684
+  - offset: 698
+    length: 715
     placeholder_text: |-
       /*
         val level = Level(1..10)
@@ -75,8 +75,8 @@ files:
       length: 684
       offset: 137
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val level = Level(1..10)
         trace(capture { level.set(0) })
@@ -154,5 +154,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 14 Jul 2021 16:53:06 UTC
 record: -1

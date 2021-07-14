@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 132
-    length: 6
+  - offset: 133
+    length: 351
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 132
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       require(s.isNotEmpty()) {
           "s must not be empty, is [$s]"
@@ -26,15 +26,15 @@ files:
           "separated by '-', is [$s]"
         }
         return s
-  - offset: 171
-    length: 6
+  - offset: 517
+    length: 42
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 171
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       require(0 < d && d <= 10.0)
         return d
@@ -94,5 +94,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 14 Jul 2021 16:45:56 UTC
 record: -1
