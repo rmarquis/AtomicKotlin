@@ -3,45 +3,45 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 118
-    length: 6
+  - offset: 119
+    length: 4
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 118
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "true"
-  - offset: 126
-    length: 13
+  - offset: 125
+    length: 43
     placeholder_text: class Failure
     initial_state:
       length: 13
       offset: 126
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'class Failure(msg: String) : Exception(msg)'
-  - offset: 176
-    length: 6
+  - offset: 205
+    length: 20
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 176
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: throw Failure(msg)
-  - offset: 213
-    length: 6
+  - offset: 256
+    length: 92
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 213
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       trace("debug($test) with _debug[$_debug]")
         if (_debug && !test) fail("debug() failed")
@@ -91,5 +91,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 09:53:43 UTC
 record: -1

@@ -1,36 +1,39 @@
 // NothingType/NothingTypeSoln2.kt
 package theNothingTypeExercise2
+
 import atomictest.*
+import theNothingTypeExercise1.Failure
 
 object Log {
-  // TODO
-  fun add(msg: String) = "TODO"
-  fun report(): List<String> = TODO()
+    private val messages = mutableListOf<String>()
+    fun add(msg: String) = messages.add(msg)
+    fun report(): List<String> = messages.toList()
 }
 
-class Failure
+class Failure(msg: String) : Exception(msg)
 
 fun fail(msg: String): Nothing {
-  TODO()
+    Log.add(msg)
+    throw Failure(msg)
 }
 
 fun require(test: Boolean) {
-  TODO()
+    if (!test) fail("require failed")
 }
 
 fun check(test: Boolean) {
-  TODO()
+    if (!test) fail("check failed")
 }
 
 fun main() {
-  require(true)
-  check(true)
-  capture {
-    require(false)
-  } eq "Failure: require failed"
-  capture {
-    check(false)
-  } eq "Failure: check failed"
-  Log.report() eq
-    "[require failed, check failed]"
+    require(true)
+    check(true)
+    capture {
+        require(false)
+    } eq "Failure: require failed"
+    capture {
+        check(false)
+    } eq "Failure: check failed"
+    Log.report() eq
+            "[require failed, check failed]"
 }

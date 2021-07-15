@@ -3,79 +3,79 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 103
-    length: 7
+  - offset: 143
+    length: 48
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 103
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       private val messages =
           mutableListOf<String>()
-  - offset: 136
-    length: 6
+  - offset: 219
+    length: 17
     placeholder_text: '"TODO"'
     initial_state:
       length: 6
       offset: 136
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: messages.add(msg)
-  - offset: 174
-    length: 6
+  - offset: 270
+    length: 17
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 174
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: messages.toList()
-  - offset: 184
-    length: 13
+  - offset: 291
+    length: 43
     placeholder_text: class Failure
     initial_state:
       length: 13
       offset: 184
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'class Failure(msg: String) : Exception(msg)'
-  - offset: 234
-    length: 6
+  - offset: 371
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 234
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       Log.add(msg)
         throw Failure(msg)
-  - offset: 275
-    length: 6
+  - offset: 443
+    length: 35
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 275
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: if (!test) fail("require failed")
-  - offset: 314
-    length: 6
+  - offset: 511
+    length: 33
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 314
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: if (!test) fail("check failed")
   text: |-
     // NothingType/NothingTypeSoln2.kt
@@ -129,5 +129,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 09:52:32 UTC
 record: -1
