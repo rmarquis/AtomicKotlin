@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 101
-    length: 7
+  - offset: 102
+    length: 280
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 101
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Cleanup : AutoCloseable {
         fun f() = trace("f()")
@@ -49,5 +49,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 11:24:07 UTC
 record: -1

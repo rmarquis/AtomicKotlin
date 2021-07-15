@@ -1,5 +1,6 @@
 // ResourceCleanup/ResourceCleanupSoln1.kt
 package resourceCleanupExercise1
+
 import atomictest.trace
 import java.io.File
 
@@ -9,12 +10,18 @@ Coming for to carry me home
 """.trim()
 
 fun writeAndRead() {
-  TODO()
+    val f = File("DataFiles/CleanupSoln1.txt")
+    if (f.exists())
+        f.delete()
+    f.createNewFile()
+    f.appendText(text)
+    trace(f.useLines { it.joinToString("\n") })
+    f.forEachLine { trace(it) }
 }
 
 fun main() {
-  writeAndRead()
-  trace eq """
+    writeAndRead()
+    trace eq """
     Swing low, sweet chariot
     Coming for to carry me home
     Swing low, sweet chariot

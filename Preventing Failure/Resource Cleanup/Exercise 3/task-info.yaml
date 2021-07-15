@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 327
-    length: 6
+    length: 164
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 327
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       Cleanup().use {
           it.f()
@@ -72,5 +72,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 11:36:23 UTC
 record: -1
