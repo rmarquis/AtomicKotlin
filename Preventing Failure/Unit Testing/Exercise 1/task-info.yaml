@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 172
-    length: 7
+  - offset: 173
+    length: 229
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 172
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class SealedClassesTest {
         @Test
@@ -47,5 +47,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 12:49:15 UTC
 record: -1

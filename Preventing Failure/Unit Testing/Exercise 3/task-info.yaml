@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 196
-    length: 7
+  - offset: 199
+    length: 708
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 196
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class SpaceShipControlsTest {
         val velocity = 10
@@ -71,5 +71,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 13:17:31 UTC
 record: -1
