@@ -3,28 +3,28 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 161
-    length: 19
+  - offset: 162
+    length: 33
     placeholder_text: '// TODO: add values'
     initial_state:
       length: 19
       offset: 161
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Trace, Debug, Info, Warn, Error
-  - offset: 208
-    length: 6
+  - offset: 223
+    length: 5
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 208
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Error
-  - offset: 294
-    length: 84
+  - offset: 310
+    length: 141
     placeholder_text: |-
       private fun log(type: String, msg: String) =
           logFile.appendText("$type: $msg\n")
@@ -33,13 +33,13 @@ files:
       offset: 294
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       private fun log(thisLevel: Level, msg: String) {
           if(thisLevel >= debugLevel)
             logFile.appendText("${thisLevel.name}: $msg\n")
         }
-  - offset: 406
+  - offset: 484
     length: 17
     placeholder_text: log("Trace", msg)
     initial_state:
@@ -47,19 +47,19 @@ files:
       offset: 406
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: log(Trace, msg)
-  - offset: 451
+  - offset: 531
     length: 17
     placeholder_text: log("Debug", msg)
     initial_state:
       length: 17
       offset: 451
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: log(Debug, msg)
-  - offset: 495
+  - offset: 577
     length: 16
     placeholder_text: log("Info", msg)
     initial_state:
@@ -67,19 +67,19 @@ files:
       offset: 495
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: log(Info, msg)
-  - offset: 538
+  - offset: 622
     length: 16
     placeholder_text: log("Warn", msg)
     initial_state:
       length: 16
       offset: 538
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: log(Warn, msg)
-  - offset: 582
+  - offset: 668
     length: 17
     placeholder_text: log("Error", msg)
     initial_state:
@@ -87,7 +87,7 @@ files:
       offset: 582
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: log(Error, msg)
   text: |-
     // Logging/LoggingSoln3.kt
@@ -161,5 +161,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 12:15:53 UTC
 record: -1

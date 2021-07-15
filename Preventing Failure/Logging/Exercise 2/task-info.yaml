@@ -3,18 +3,18 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 1272
-    length: 30
+  - offset: 1346
+    length: 22
     placeholder_text: println("Database Problem $e")
     initial_state:
       length: 30
       offset: 1272
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: logger.error("$e")
   - offset: 1448
-    length: 179
+    length: 160
     placeholder_text: |-
       catch (e: NetworkFail) {
             println("Network Problem $e")
@@ -28,31 +28,31 @@ files:
       offset: 1448
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       catch (e: Except) {
             logger.error("$e")
             return Failed
           }
-  - offset: 1724
-    length: 34
+  - offset: 1729
+    length: 42
     placeholder_text: println("Network Close Failed $e")
     initial_state:
       length: 34
       offset: 1724
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: logger.error("$e")
-  - offset: 1993
-    length: 30
+  - offset: 2070
+    length: 24
     placeholder_text: println("Database Problem $e")
     initial_state:
       length: 30
       offset: 1993
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: logger.error("$e")
   text: |-
     // Logging/LoggingSoln2.kt
@@ -181,5 +181,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 15 Jul 2021 12:14:33 UTC
 record: -1
