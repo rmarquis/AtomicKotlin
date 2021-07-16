@@ -3,45 +3,45 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 119
-    length: 7
+  - offset: 122
+    length: 26
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 119
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: trace("A constructor")
-  - offset: 139
-    length: 13
+  - offset: 166
+    length: 61
     placeholder_text: = B() // TODO
     initial_state:
       length: 13
       offset: 139
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       by lazy {
           trace("Initializing A.b")
           B()
         }
-  - offset: 161
-    length: 11
+  - offset: 238
+    length: 59
     placeholder_text: = 1 // TODO
     initial_state:
       length: 11
       offset: 161
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       by lazy {
           trace("Initializing A.i")
           1
         }
-  - offset: 185
+  - offset: 313
     length: 9
     placeholder_text: 0 // TODO
     initial_state:
@@ -49,51 +49,51 @@ files:
       offset: 185
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: i + b.g()
-  - offset: 221
-    length: 7
+  - offset: 351
+    length: 26
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 221
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: trace("B constructor")
-  - offset: 241
-    length: 11
+  - offset: 395
+    length: 59
     placeholder_text: = 2 // TODO
     initial_state:
       length: 11
       offset: 241
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       by lazy {
           trace("Initializing B.j")
           2
         }
-  - offset: 265
-    length: 9
+  - offset: 470
+    length: 1
     placeholder_text: 0 // TODO
     initial_state:
       length: 9
       offset: 265
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: j
-  - offset: 299
-    length: 13
+  - offset: 498
+    length: 59
     placeholder_text: = A() // TODO
     initial_state:
       length: 13
       offset: 299
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       by lazy {
           trace("Initializing A")
@@ -151,5 +151,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 15:14:55 UTC
 record: -1

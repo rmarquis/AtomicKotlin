@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 615
-    length: 7
+  - offset: 656
+    length: 25
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 615
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: show(Properties::never)
   text: |-
     // LazyInitialization/LazyInitSoln1.kt
@@ -78,5 +78,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 15:10:40 UTC
 record: -1

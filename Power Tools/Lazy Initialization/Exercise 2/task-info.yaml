@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 96
-    length: 121
+  - offset: 97
+    length: 455
     placeholder_text: |-
       class Outer {
         val s1: String = "TODO"
@@ -17,8 +17,8 @@ files:
       length: 121
       offset: 96
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Outer {
         init {
@@ -93,5 +93,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 15:12:06 UTC
 record: -1
