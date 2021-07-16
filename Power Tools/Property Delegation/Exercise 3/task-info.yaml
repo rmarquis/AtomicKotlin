@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 188
-    length: 40
+  - offset: 191
+    length: 251
     placeholder_text: // TODO getValue and setValue extensions
     initial_state:
       length: 40
       offset: 188
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       operator fun getValue(
           delegator: Holders,
@@ -24,8 +24,8 @@ files:
         ) {
           list = value
         }
-  - offset: 248
-    length: 100
+  - offset: 462
+    length: 101
     placeholder_text: |-
       /*
         var strings by Holder<String>()
@@ -36,14 +36,14 @@ files:
       length: 100
       offset: 248
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         var strings by Holder<String>()
         var ints by Holder<Int>()
         var bools by Holder<Boolean>()
-  - offset: 365
-    length: 234
+  - offset: 579
+    length: 243
     placeholder_text: |-
       /*
         val x = Holders()
@@ -59,7 +59,7 @@ files:
       offset: 365
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         val x = Holders()
         x.strings = listOf("99", "17")
@@ -113,5 +113,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 14:30:13 UTC
 record: -1

@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 173
-    length: 3
+  - offset: 174
+    length: 5
     placeholder_text: val
     initial_state:
       length: 3
       offset: 173
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: var
-  - offset: 297
-    length: 28
+  - offset: 302
+    length: 111
     placeholder_text: // operator fun Sum.setValue
     initial_state:
       length: 28
       offset: 297
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       operator fun Sum.setValue(
         thisRef: Add, property: KProperty<*>,
@@ -29,15 +29,15 @@ files:
       ) {
         thisRef.a = value
       }
-  - offset: 392
+  - offset: 484
     length: 21
     placeholder_text: //  addition.sum = 10
     initial_state:
       length: 21
       offset: 392
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '  addition.sum = 10'
   text: |-
     // PropertyDelegation/PropDelegationSoln2.kt
@@ -78,5 +78,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 14:23:46 UTC
 record: -1
