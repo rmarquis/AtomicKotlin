@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 76
-    length: 7
+    length: 175
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 76
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       interface PowerPlant
       class ElectricMotor : PowerPlant
@@ -22,15 +22,15 @@ files:
       }
 
       lateinit var car: Vehicle
-  - offset: 100
-    length: 7
+  - offset: 268
+    length: 150
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 100
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       lateinit var truck: Vehicle
         car = Vehicle()
@@ -61,5 +61,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 15:17:42 UTC
 record: -1
