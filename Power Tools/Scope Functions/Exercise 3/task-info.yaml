@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 270
-    length: 6
+  - offset: 279
+    length: 144
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 270
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       Math().run {
           val z = np(11, 7).apply {
@@ -52,5 +52,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 07:46:14 UTC
 record: -1
