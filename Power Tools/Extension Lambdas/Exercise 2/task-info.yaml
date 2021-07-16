@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 119
-    length: 38
+  - offset: 120
+    length: 206
     placeholder_text: |-
       fun sandwich2(): Sandwich {
         TODO()
@@ -13,8 +13,8 @@ files:
       length: 38
       offset: 119
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun sandwich2(
         prepare: Sandwich.() -> Unit = { this },
@@ -25,8 +25,8 @@ files:
         sandwich.fillings()
         return sandwich
       }
-  - offset: 159
-    length: 38
+  - offset: 328
+    length: 104
     placeholder_text: |-
       fun sandwich3(): Sandwich {
         TODO()
@@ -35,8 +35,8 @@ files:
       length: 38
       offset: 159
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun Sandwich.sandwich3(
         fillings: Sandwich.() -> Unit
@@ -44,8 +44,8 @@ files:
         fillings()
         return this
       }
-  - offset: 199
-    length: 539
+  - offset: 434
+    length: 565
     placeholder_text: |-
       /*
       val PBJ1 = sandwich2 {
@@ -80,8 +80,8 @@ files:
       length: 539
       offset: 199
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val PBJ1 = sandwich2 {
         add(PeanutButter())
@@ -168,5 +168,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 07:35:39 UTC
 record: -1

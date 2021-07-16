@@ -3,41 +3,41 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 167
-    length: 6
+  - offset: 170
+    length: 66
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 167
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val sb = StringBuilder()
         sb.build()
         return sb.toString()
-  - offset: 245
-    length: 6
+  - offset: 310
+    length: 60
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 245
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       val list = ArrayList<T>()
         list.build()
         return list
-  - offset: 328
-    length: 6
+  - offset: 449
+    length: 58
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 328
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       val map = HashMap<K, V>()
         map.build()
@@ -102,5 +102,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 07:33:31 UTC
 record: -1

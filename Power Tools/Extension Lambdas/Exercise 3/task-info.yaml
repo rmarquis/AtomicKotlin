@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 500
-    length: 37
+  - offset: 586
+    length: 185
     placeholder_text: |-
       fun cleanser(): Cleanser {
         TODO()
@@ -14,7 +14,7 @@ files:
       offset: 500
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       fun cleanser(
         formula: Cleanser.() -> Unit
@@ -25,8 +25,8 @@ files:
         result.sealContainer()
         return result
       }
-  - offset: 539
-    length: 47
+  - offset: 773
+    length: 232
     placeholder_text: |-
       fun sprayCleanser(): SprayCleanser {
         TODO()
@@ -35,8 +35,8 @@ files:
       length: 47
       offset: 539
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun sprayCleanser(
         formula: SprayCleanser.() -> Unit
@@ -48,8 +48,8 @@ files:
         result.sealContainer()
         return result
       }
-  - offset: 601
-    length: 349
+  - offset: 1020
+    length: 399
     placeholder_text: |-
       /*
         val c: Cleanser = cleanser {
@@ -71,8 +71,8 @@ files:
       length: 349
       offset: 601
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val c: Cleanser = cleanser {
           detergent()
@@ -153,5 +153,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 07:36:57 UTC
 record: -1
