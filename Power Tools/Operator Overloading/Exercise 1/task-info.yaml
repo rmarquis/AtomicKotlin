@@ -3,40 +3,40 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 201
-    length: 7
+  - offset: 208
+    length: 88
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 201
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       require(current in range) {
             "'current' out of range: $current"
           }
-  - offset: 290
-    length: 6
+  - offset: 385
+    length: 66
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 290
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       current = (current + 1) % (range.last + 1)
           return this
-  - offset: 339
-    length: 6
+  - offset: 499
+    length: 112
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 339
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if (current - 1 < 0)
             current = range.last
@@ -111,5 +111,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 09:40:15 UTC
 record: -1

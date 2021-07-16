@@ -3,28 +3,28 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 235
-    length: 6
+  - offset: 247
+    length: 71
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 235
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       Count.values()[
           (ordinal + 1) % Count.values().size
         ]
-  - offset: 279
-    length: 6
+  - offset: 356
+    length: 85
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 279
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if (ordinal - 1 < 0)
           Count.max
@@ -102,5 +102,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 09:41:51 UTC
 record: -1

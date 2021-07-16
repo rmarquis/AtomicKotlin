@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 103
-    length: 16
+  - offset: 104
+    length: 853
     placeholder_text: class Repository
     initial_state:
       length: 16
       offset: 103
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Repository<T>(initSize: Int = 10) {
         private val list =
@@ -44,8 +44,8 @@ files:
         override fun toString() =
           list.joinToString(", ")
       }
-  - offset: 134
-    length: 839
+  - offset: 972
+    length: 931
     placeholder_text: |-
       /*
         val r = Repository<Int>(5)
@@ -87,8 +87,8 @@ files:
       length: 839
       offset: 134
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val r = Repository<Int>(5)
         (1..7).forEach {
@@ -184,5 +184,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 09:43:30 UTC
 record: -1
