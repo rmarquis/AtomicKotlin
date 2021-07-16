@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 131
-    length: 7
+  - offset: 132
+    length: 249
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 131
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class CrateList<T> : ArrayList<Crate<T>>() {
         private class DecoratedCrate<T>(
@@ -23,8 +23,8 @@ files:
           add(DecoratedCrate(item))
         }
       }
-  - offset: 153
-    length: 320
+  - offset: 396
+    length: 346
     placeholder_text: |-
       /*
         val intCrates = CrateList<Int>()
@@ -41,8 +41,8 @@ files:
       length: 320
       offset: 153
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val intCrates = CrateList<Int>()
         (0..7).forEach { intCrates.add(it) }
@@ -89,5 +89,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 08:08:32 UTC
 record: -1

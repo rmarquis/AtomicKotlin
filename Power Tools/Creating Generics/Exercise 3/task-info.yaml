@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 100
-    length: 7
+  - offset: 101
+    length: 261
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 100
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       interface InBox<in T> {
         fun put(item: T)
@@ -28,8 +28,8 @@ files:
         }
         override fun get(): T = contents
       }
-  - offset: 122
-    length: 140
+  - offset: 377
+    length: 214
     placeholder_text: |-
       /*
         val cg: Crate<Grape> = Crate(Grape())
@@ -41,8 +41,8 @@ files:
       length: 140
       offset: 122
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val catBox: Box<Cat> = Box(Cat())
         val outBoxAny: OutBox<Any> = catBox
@@ -80,5 +80,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 08:09:21 UTC
 record: -1

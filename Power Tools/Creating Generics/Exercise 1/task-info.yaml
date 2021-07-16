@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 101
-    length: 7
+  - offset: 102
+    length: 203
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 101
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       fun interface Items<T> {
         fun next(): T?
@@ -24,8 +24,8 @@ files:
           else items[index++]
         }
       }
-  - offset: 123
-    length: 191
+  - offset: 320
+    length: 201
     placeholder_text: |-
       /*
         val s = itemIter("A", "B", "C")
@@ -38,8 +38,8 @@ files:
       length: 191
       offset: 123
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val s = itemIter("A", "B", "C")
         (0..3).map { s.next() } eq "[A, B, C, null]"
@@ -77,5 +77,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 08:07:06 UTC
 record: -1
