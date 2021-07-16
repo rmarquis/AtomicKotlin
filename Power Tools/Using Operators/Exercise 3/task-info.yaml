@@ -3,23 +3,23 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 126
-    length: 24
+  - offset: 127
+    length: 151
     placeholder_text: 'data class N(var n: Int)'
     initial_state:
       length: 24
       offset: 126
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       data class N(var n: Int) : Comparable<N> {
         override fun compareTo(other: N) =
           n.compareTo(other.n)
         override fun toString() = "N($n)"
       }
-  - offset: 165
-    length: 341
+  - offset: 293
+    length: 539
     placeholder_text: |-
       /*
       val rnd = Random(47) // For repeatability
@@ -39,8 +39,8 @@ files:
       length: 341
       offset: 165
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val rnd = Random(47) // For repeatability
         val key = N(11)
@@ -100,5 +100,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 10:29:06 UTC
 record: -1

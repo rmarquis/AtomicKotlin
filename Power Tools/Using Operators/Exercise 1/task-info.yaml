@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 98
-    length: 14
+  - offset: 99
+    length: 223
     placeholder_text: class DataMany
     initial_state:
       length: 14
       offset: 98
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       data class DataMany(
         val a: Int = 1,
@@ -25,56 +25,56 @@ files:
         val i: Int = 9,
         val j: Int = 10,
       )
-  - offset: 128
-    length: 6
+  - offset: 338
+    length: 163
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 128
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val dm = DataMany()
         val (a, b, c, d, e, f, g, h, i, j) = dm
         trace("$a $b $c $d $e $f $g $h $i $j")
         trace(dm.component1())
         trace(dm.component10())
-  - offset: 158
-    length: 6
+  - offset: 525
+    length: 78
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 158
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val dm = DataMany()
         val (a, b, c, d, e) = dm
         trace("$a $b $c $d $e")
-  - offset: 189
-    length: 6
+  - offset: 628
+    length: 93
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 189
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       val dm = DataMany()
         val (_, _, _, _, _, f, g, h, i, j) = dm
         trace("$f $g $h $i $j")
-  - offset: 222
-    length: 6
+  - offset: 748
+    length: 93
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 222
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       val dm = DataMany()
         val (a, _, c, _, e, _, g, _, i, _) = dm
@@ -131,5 +131,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 10:17:18 UTC
 record: -1

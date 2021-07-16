@@ -3,25 +3,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 131
-    length: 6
+  - offset: 132
+    length: 22
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 131
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: MutableList(10) { it }
-  - offset: 179
-    length: 6
+  - offset: 196
+    length: 153
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 179
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       trace("assignAppendIncrementContains()")
         val list = create()
@@ -30,15 +30,15 @@ files:
         list[10]++
         trace(list)
         trace(101 in list)
-  - offset: 205
-    length: 6
+  - offset: 369
+    length: 174
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 205
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       trace("minus()")
         val list = create()
@@ -49,15 +49,15 @@ files:
         list -= 1
         list -= -1
         trace(list)
-  - offset: 230
-    length: 6
+  - offset: 562
+    length: 87
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 230
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       trace("plus()")
         var list = create() + 11 + 12 + 13
@@ -114,5 +114,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 10:27:38 UTC
 record: -1
