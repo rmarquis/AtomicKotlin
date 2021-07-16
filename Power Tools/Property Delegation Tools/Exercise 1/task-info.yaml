@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 108
-    length: 19
+  - offset: 109
+    length: 149
     placeholder_text: class Configuration
     initial_state:
       length: 19
       offset: 108
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Configuration(
         val map: MutableMap<String, Any?>
@@ -20,8 +20,8 @@ files:
         var id: String by map
         var project: String by map
       }
-  - offset: 142
-    length: 329
+  - offset: 273
+    length: 388
     placeholder_text: |-
       /*
         val config = Configuration(mutableMapOf(
@@ -41,7 +41,7 @@ files:
       offset: 142
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
         val config = Configuration(mutableMapOf(
           "user" to "Luciano",
@@ -91,5 +91,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 14:56:50 UTC
 record: -1

@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 177
-    length: 18
+  - offset: 180
+    length: 61
     placeholder_text: = TODO() // by ...
     initial_state:
       length: 18
       offset: 177
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       by Delegates.vetoable(i) {
           _, _, new -> new > 0
@@ -49,5 +49,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 15:08:08 UTC
 record: -1

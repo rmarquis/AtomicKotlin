@@ -3,40 +3,40 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 178
-    length: 16
+  - offset: 179
+    length: 100
     placeholder_text: fun observe() {}
     initial_state:
       length: 16
       offset: 178
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       fun <T> observe(
         prop: KProperty<*>, old: T, new: T
       ) {
         trace("${prop.name} $old to $new")
       }
-  - offset: 257
-    length: 36
+  - offset: 343
+    length: 29
     placeholder_text: = "" // by observable(nm, ::observe)
     initial_state:
       length: 36
       offset: 257
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: by observable(nm, ::observe)
-  - offset: 306
-    length: 35
+  - offset: 387
+    length: 28
     placeholder_text: = 0 // by observable(id, ::observe)
     initial_state:
       length: 35
       offset: 306
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: by observable(id, ::observe)
   text: |-
     // DelegationTools/DelegToolsSoln2.kt
@@ -78,5 +78,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Jul 2021 15:06:50 UTC
 record: -1
